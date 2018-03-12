@@ -12,22 +12,28 @@ let shokiSettei = () => {
   kakusuPanel(modoruButton);
 
   // タイトル画面のおみくじ画像を設定する
-  setteiHomeImage('omikuji.png');
+  setteiHomeImage('shogi.png');
 
 }
 
 // おみくじの中身
 let omikujiNakami = [
-  { // 吉の設定
-    kekkaTitle: '', // おみくじの結果のタイトル文
-    kekkaSetsumei: '', // おみくじの結果につける説明文
-    kekkaImage: '' //おみくじの結果に表示する画像
+  { // だいきち吉の設
+    kekkaTitle: '王将', // おみくじの結果のタイトル文
+    kekkaSetsumei: '今日はいい日', // おみくじの結果につける説明文
+    kekkaImage: 'ousyu.png' //おみくじの結果に表示する画像
   },
   { // 凶の設定
-    kekkaTitle: '', // おみくじの結果のタイトル文
-    kekkaSetsumei: '', // おみくじの結果につける説明文
-    kekkaImage: '' //おみくじの結果に表示する画像
+    kekkaTitle: '歩兵', //おみくじの結果のタイトル文
+    kekkaSetsumei: '今日は良くない日', // おみくじの結果につける説明
+    kekkaImage: 'huhyou.png' //おみくじの結果に表示する画像
+  },
+  { // の設
+    kekkaTitle: '角行', // おみくじの結果のタイトル文
+    kekkaSetsumei: '今日はいいこともあれば良くない事がある', // おみくじの結果につける説明文
+    kekkaImage: 'kaku.png' //おみくじの結果に表示する画像
   }
+  
 ];
 
 // おみくじを引く
